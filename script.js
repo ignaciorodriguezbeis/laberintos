@@ -1,7 +1,7 @@
 const canvas = document.getElementById('laberintoCanvas');
 const ctx = canvas.getContext('2d');
 const blockSize = 20;
-const mazeSize = 20;
+const mazeSize = 40;
 const player = { x: 0, y: 0 };
 const exit = { x: mazeSize - 1, y: mazeSize - 1 };
 
