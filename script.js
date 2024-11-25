@@ -65,10 +65,10 @@ function generateMaze(rows, cols) {
     }
 
     // Comenzar desde la entrada
-    carvePath(0, 0);
+    carvePath(1, 0);
 
     // Asegurar la salida
-    maze[rows - 1][cols - 1] = 0;
+    maze[rows  -1][cols  -1] = 1;
 
     return maze;
 }
